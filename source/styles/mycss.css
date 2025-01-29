@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+
+
+body {
+	font-family: Inconsolata, serif;
+	background: linear-gradient(90deg, #441c62 37%, #5f0739 87%);
+}
+p {
+	color: blueviolet;
+}
+
+.nav-link {
+	color: rgb(255, 177, 251);
+}
+.navbar-nav .nav-link.active {
+	color: rgb(181, 47, 218);
+}
+.navbar-brand img {
+	width: 70px;
+	height: 70px;
+}
+.navbar-toggler {
+	background-color: rgb(245, 137, 239);
+}
+.container-fluid {
+	background: linear-gradient(90deg, #441c62 37%, #5f0739 87%);
+}
+.sidebar {
+	color: blueviolet;
+	background: linear-gradient(270deg, #441c62 37%, #5f0739 87%);
+}
+.btn-outline-primary {
+	background: linear-gradient(270deg, #441c62 37%, #5f0739 87%);
+}
+
+.card {
+	color: rgb(245, 137, 239);
+	background-color: #5f0739;
+}
+
+.card a {
+	text-decoration: none;
+	color: rgb(245, 137, 239);
+
+}
+.slide-text, .footer-text {
+	color: blueviolet;
+	margin: auto auto;
+}
+
+.call-anim:hover {
+	animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 50%;
+	}
+
+	10% {
+		transform: rotate(8deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-10deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(10deg);
+	}
+
+	80% {
+		transform: rotate(-8deg);
+	}
+
+	90% {
+		transform: rotate(8deg);
+	}
+}
+
+
+
+
+@media (max-width:755px) {
+	.carousel-indicators {
+		display: none;
+	}
+}
+#footer-row {
+	background: linear-gradient(80deg, #6f284b 0%, #58235f 100%);
+	
+}
+footer img {
+	width: 50px;
+}
+.media-links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#footer-row a {
+	text-decoration: none;
+	color: blueviolet;
+}
